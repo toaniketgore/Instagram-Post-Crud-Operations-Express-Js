@@ -1,20 +1,25 @@
 body {
-    background-color: #00000057;
+    /* background-color: #00000057; */
+    background-color: #000;
 }
 
 h4 {
-    color: #000;
+    color: #fff;
 }
-.card-text{
-    color:#fff;
+
+.card-text {
+    color: #fff;
 }
 
 .card {
-    background-color: #ff000038;
+    /* background-color: #ff000038; */
+    background-color: #000000ab;
+    border: 2px solid #ffffff36;
 }
 
 .card-title {
     padding-left: 20px;
+    color: #fff;
 }
 
 .likeBtn {
