@@ -1,0 +1,27 @@
+body {
+    background-color: #00000057;
+}
+
+h4 {
+    color: #000;
+}
+.card-text{
+    color:#fff;
+}
+
+.card {
+    background-color: #ff000038;
+}
+
+.card-title {
+    padding-left: 20px;
+}
+
+.likeBtn {
+    margin-left: 1rem;
+}
+
+.postImg {
+    width: 220px;
+    height: 162px;
+}
