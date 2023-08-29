@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="post" action="/posts/<%=post.id%>?_method=PATCH" >
+        <!-- <div class="mb-3">
+            <p class="mx-2 my-2">Choose file to upload</p>
+            <input type="file" class="form-control mx-4" id="exampleInputEmail1" aria-describedby="emailHelp" name="img"
+                accept="image/*">
+        </div> -->
+        <div class="mb-3">
+            <p class="mx-2">Enter Image Address </p>
+            <input type="text" name="img" id="" class="mx-4" placeholder="Address should be absolute path"
+                style="width: 20rem;">
+        </div>
+
+        <div class="mb-3">
+            <p class="mx-2">Edit Caption Below: </p>
+            <textarea name="caption" id="" cols="30" rows="5" class="mx-4"><%=post.caption%></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary mx-4">Update</button>
+    </form>
+</body>
+
+</html>
